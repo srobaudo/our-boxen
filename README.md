@@ -139,6 +139,7 @@ This template project provides the following by default:
 * Ruby 3.1
 * Ruby 3.2
 * Ruby 3.3
+* Ruby 3.4
 * ack
 * Findutils
 * GNU tar

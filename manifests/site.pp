@@ -73,6 +73,7 @@ node default {
   ruby::version { '3.1': }
   ruby::version { '3.2': }
   ruby::version { '3.3': }
+  ruby::version { '3.4': }
 
   # common, useful packages
   package {
