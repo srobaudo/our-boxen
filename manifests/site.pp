@@ -63,13 +63,16 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
-  # node versions
-  nodejs::version { '0.8': }
-  nodejs::version { '0.10': }
-  nodejs::version { '0.12': }
+  # node versions (>= 20)
+  nodejs::version { '20': }
+  nodejs::version { '21': }
+  nodejs::version { '22': }
 
-  # default ruby versions
-  ruby::version { '2.4.1': }
+  # ruby 3.x versions
+  ruby::version { '3.0.7': }
+  ruby::version { '3.1.5': }
+  ruby::version { '3.2.3': }
+  ruby::version { '3.3.0': }
 
   # common, useful packages
   package {
