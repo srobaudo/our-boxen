@@ -64,16 +64,16 @@ node default {
   }
 
   # node versions (>= 20)
-  nodejs::version { '20.0': }
-  nodejs::version { '21.0': }
-  nodejs::version { '22.0': }
+  nodejs::version { '20.0.0': }
+  nodejs::version { '21.0.0': }
+  nodejs::version { '22.0.0': }
 
   # ruby 3.x versions
-  ruby::version { '3.0': }
-  ruby::version { '3.1': }
-  ruby::version { '3.2': }
-  ruby::version { '3.3': }
-  ruby::version { '3.4': }
+  ruby::version { '3.0.7': }
+  ruby::version { '3.1.6': }
+  ruby::version { '3.2.6': }
+  ruby::version { '3.3.6': }
+  ruby::version { '3.4.1': }
 
   # common, useful packages
   package {

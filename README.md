@@ -132,14 +132,14 @@ This template project provides the following by default:
 * dnsmasq w/ .dev resolver for localhost
 * rbenv
 * Full Disk Encryption requirement
-* Node.js 20.0
-* Node.js 21.0
-* Node.js 22.0
-* Ruby 3.0
-* Ruby 3.1
-* Ruby 3.2
-* Ruby 3.3
-* Ruby 3.4
+* Node.js 20.0.0
+* Node.js 21.0.0
+* Node.js 22.0.0
+* Ruby 3.0.7
+* Ruby 3.1.6
+* Ruby 3.2.6
+* Ruby 3.3.6
+* Ruby 3.4.1
 * ack
 * Findutils
 * GNU tar
