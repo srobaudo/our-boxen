@@ -37,13 +37,13 @@ MacVim.
 
 How do you do it?
 
-#### OS X 10.9 (Mavericks)
+#### macOS Sequoia (15.x) and later
 
 If you are using [`b26abd0` of boxen-web](https://github.com/boxen/boxen-web/commit/b26abd0d681129eba0b5f46ed43110d873d8fdc2)
 or newer, it will be automatically installed as part of Boxen.
 Otherwise, follow instructions below.
 
-#### OS X < 10.9
+#### macOS versions before Sequoia (15.x)
 
 1. Install Xcode from the Mac App Store.
 1. Open Xcode.
@@ -132,13 +132,14 @@ This template project provides the following by default:
 * dnsmasq w/ .dev resolver for localhost
 * rbenv
 * Full Disk Encryption requirement
-* Node.js 0.8
-* Node.js 0.10
-* Node.js 0.12
-* Ruby 1.9.3
-* Ruby 2.0.0
-* Ruby 2.1.8
-* Ruby 2.2.4
+* Node.js 20.0.0
+* Node.js 21.0.0
+* Node.js 22.0.0
+* Ruby 3.0.7
+* Ruby 3.1.6
+* Ruby 3.2.6
+* Ruby 3.3.6
+* Ruby 3.4.1
 * ack
 * Findutils
 * GNU tar
