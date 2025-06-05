@@ -21,7 +21,7 @@ ruby::version::alias:
   3.3: 3.3.6
   3.4: 3.4.1
 
-# See https://github.com/boxen/puppet-nodejs for docs  
+# See https://github.com/boxen/puppet-nodejs for docs
 nodejs::version::alias:
   20.0: 20.0.0
   21.0: 21.0.0
